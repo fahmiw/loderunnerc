@@ -53,37 +53,32 @@ void obj(int map [16][33], int baris, int kolom){                               
 
 void draw_sprite(int map[16][33]){                                // menggambar sprite character
     map[i][j]=4;                                                                // respawn karakter
-    if(kanan==1){
+        if(kanan==1){
                 if (map[i][j+1]==3 || map[i-1][j]==3)
                 {
-                    readimagefile("model/character/monyet_panjat.gif", 0+(ScreenWidth()/32)*j,0+(ScreenHeight()/18)*i,(ScreenWidth()/32)+(ScreenHeight()/18)*j,(ScreenWidth()/32)+(ScreenHeight()/18)*i);
-                    if (map [i][j+1]==3)
+                    if (j%2==0)
                     {
-                        readimagefile("model/character/monyet_kanan.jpg", 0+(ScreenWidth()/32)*j,0+(ScreenHeight()/18)*i,(ScreenWidth()/32)+(ScreenHeight()/18)*j,(ScreenWidth()/32)+(ScreenHeight()/18)*i);
-                        //delay(50);
+                    readimagefile("model/character/monyet_panjat_1.gif", 0+(ScreenWidth()/32)*j,0+(ScreenHeight()/18)*i,(ScreenWidth()/32)+(ScreenWidth()/32)*j,(ScreenHeight()/18)+(ScreenHeight()/18)*i);
+                    }else
+                    {
+                    readimagefile("model/character/monyet_panjat_2.gif", 0+(ScreenWidth()/32)*j,0+(ScreenHeight()/18)*i,(ScreenWidth()/32)+(ScreenWidth()/32)*j,(ScreenHeight()/18)+(ScreenHeight()/18)*i);
+                    }
+                if (map [i][j+1]==3)
+                    {
+                        readimagefile("model/character/monyet_kanan.jpg", 0+(ScreenWidth()/32)*j,0+(ScreenHeight()/18)*i,(ScreenWidth()/32)+(ScreenWidth()/32)*j,(ScreenHeight()/18)+(ScreenHeight()/18)*i);
+
                     }
                 }
-                else
+                else if(j%2==0)
                 {
                 readimagefile("model/character/monyet_kanan_01.jpg", 0+(ScreenWidth()/32)*j,0+(ScreenHeight()/18)*i,(ScreenWidth()/32)+(ScreenHeight()/18)*j,(ScreenWidth()/32)+(ScreenHeight()/18)*i);
-                delay(50);
-                readimagefile("model/environmental/blank.bmp", 0+(ScreenWidth()/32)*j,0+(ScreenHeight()/18)*i,(ScreenWidth()/32)+(ScreenHeight()/18)*j,(ScreenWidth()/32)+(ScreenHeight()/18)*i);
 
-                readimagefile("model/character/monyet_kanan_02.jpg", 0+(ScreenWidth()/32)*j,0+(ScreenHeight()/18)*i,(ScreenWidth()/32)+(ScreenHeight()/18)*j,(ScreenWidth()/32)+(ScreenHeight()/18)*i);
-                //delay(50);
-                readimagefile("model/environmental/blank.bmp", 0+(ScreenWidth()/32)*j,0+(ScreenHeight()/18)*i,(ScreenWidth()/32)+(ScreenHeight()/18)*j,(ScreenWidth()/32)+(ScreenHeight()/18)*i);
+                }else
+                {
+                readimagefile("model/character/monyet_kanan_03.jpg", 0+(ScreenWidth()/32)*j,0+(ScreenHeight()/18)*i,(ScreenWidth()/32)+(ScreenHeight()/18)*j,(ScreenWidth()/32)+(ScreenHeight()/18)*i);
 
-                //readimagefile("model/character/monyet_kanan_03.jpg", 0+(ScreenWidth()/32)*j,0+(ScreenHeight()/18)*i,(ScreenWidth()/32)+(ScreenHeight()/18)*j,(ScreenWidth()/32)+(ScreenHeight()/18)*i);
-                //delay(50);
-               //readimagefile("model/environmental/blank.bmp", 0+(ScreenWidth()/32)*j,0+(ScreenHeight()/18)*i,(ScreenWidth()/32)+(ScreenHeight()/18)*j,(ScreenWidth()/32)+(ScreenHeight()/18)*i);
-
-                //readimagefile("model/character/monyet_kanan_04.jpg", 0+(ScreenWidth()/32)*j,0+(ScreenHeight()/18)*i,(ScreenWidth()/32)+(ScreenHeight()/18)*j,(ScreenWidth()/32)+(ScreenHeight()/18)*i);
-                //delay(50);
-                //readimagefile("model/environmental/blank.bmp", 0+(ScreenWidth()/32)*j,0+(ScreenHeight()/18)*i,(ScreenWidth()/32)+(ScreenHeight()/18)*j,(ScreenWidth()/32)+(ScreenHeight()/18)*i);
-
-                readimagefile("model/character/monyet_kanan.jpg", 0+(ScreenWidth()/32)*j,0+(ScreenHeight()/18)*i,(ScreenWidth()/32)+(ScreenHeight()/18)*j,(ScreenWidth()/32)+(ScreenHeight()/18)*i);
                 }
-    }
+            }
     if(kiri==1){
         if (map[i][j-1]==3 || map[i-1][j]==3)
                 {

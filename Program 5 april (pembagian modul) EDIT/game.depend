@@ -186,3 +186,71 @@
 1554430022 c:\users\user\documents\proyek perangkat lunak 2\program 5 april (pembagian modul)\include\agung_181511036.cpp
 	"Agung_181511036.h"
 
+1560991505 source:c:\users\user\documents\_proyekperangkatlunak2_loderunnerc\program 5 april (pembagian modul) edit\include\abdul_181511001.cpp
+	"Abdul_181511001.h"
+
+1560991505 c:\users\user\documents\_proyekperangkatlunak2_loderunnerc\program 5 april (pembagian modul) edit\include\abdul_181511001.h
+	<graphics.h>
+	<conio.h>
+	<stdio.h>
+	<iostream>
+	<windows.h>
+	<process.h>
+	<stddef.h>
+	<stdlib.h>
+	<MMsystem.h>
+
+1560991505 source:c:\users\user\documents\_proyekperangkatlunak2_loderunnerc\program 5 april (pembagian modul) edit\include\agung_181511036.cpp
+	"Agung_181511036.h"
+
+1560991505 c:\users\user\documents\_proyekperangkatlunak2_loderunnerc\program 5 april (pembagian modul) edit\include\agung_181511036.h
+	<graphics.h>
+	<conio.h>
+	<stdio.h>
+	"Irfan_181511048.h"
+
+1560991505 c:\users\user\documents\_proyekperangkatlunak2_loderunnerc\program 5 april (pembagian modul) edit\include\irfan_181511048.h
+	<graphics.h>
+	<conio.h>
+	<stdio.h>
+	"Fahmi_181511012.h"
+	"Abdul_181511001.h"
+	"Nadia_181511058.h"
+
+1560991505 c:\users\user\documents\_proyekperangkatlunak2_loderunnerc\program 5 april (pembagian modul) edit\include\fahmi_181511012.h
+	"header.h"
+	"Agung_181511036.h"
+	"Nadia_181511058.h"
+
+1560991505 c:\users\user\documents\_proyekperangkatlunak2_loderunnerc\program 5 april (pembagian modul) edit\include\header.h
+	<graphics.h>
+	<conio.h>
+	<stdio.h>
+	<process.h>
+	<stddef.h>
+	<stdlib.h>
+	<stdlib.h>
+	<mmsystem.h>
+	<pthread.h>
+
+1560991505 c:\users\user\documents\_proyekperangkatlunak2_loderunnerc\program 5 april (pembagian modul) edit\include\nadia_181511058.h
+	"header.h"
+	"Irfan_181511048.h"
+	"Agung_181511036.h"
+
+1560991505 source:c:\users\user\documents\_proyekperangkatlunak2_loderunnerc\program 5 april (pembagian modul) edit\include\fahmi_181511012.cpp
+	"Fahmi_181511012.h"
+
+1560991505 source:c:\users\user\documents\_proyekperangkatlunak2_loderunnerc\program 5 april (pembagian modul) edit\include\nadia_181511058.cpp
+	"Nadia_181511058.h"
+
+1560991505 source:c:\users\user\documents\_proyekperangkatlunak2_loderunnerc\program 5 april (pembagian modul) edit\main.cpp
+	"include/Abdul_181511001.h"
+	"include/Agung_181511036.h"
+	"include/Fahmi_181511012.h"
+	"include/Irfan_181511048.h"
+	"include/Nadia_181511058.h"
+
+1560994689 source:c:\users\user\documents\_proyekperangkatlunak2_loderunnerc\program 5 april (pembagian modul) edit\include\irfan_181511048.cpp
+	"Irfan_181511048.h"
+
