@@ -1,0 +1,5 @@
+Agung: Main Menu
+Abdul: Skor, Sound
+Fahmi: Movement karakter
+Irfan: Game level
+Nadia: Skill karakter

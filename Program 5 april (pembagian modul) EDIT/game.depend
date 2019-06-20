@@ -1,0 +1,188 @@
+# depslib dependency file v1.0
+1554309682 source:c:\users\king\downloads\documents\proyek 2\program tanggal 4 april new with sound - copy\include\abdul_181511001.cpp
+	"Abdul_181511001.h"
+
+1554309684 c:\users\king\downloads\documents\proyek 2\program tanggal 4 april new with sound - copy\include\abdul_181511001.h
+	<graphics.h>
+	<conio.h>
+	<stdio.h>
+	<iostream>
+	<windows.h>
+	<process.h>
+	<stddef.h>
+	<stdlib.h>
+	<MMsystem.h>
+
+1554477724 source:c:\users\king\downloads\documents\proyek 2\program tanggal 4 april new with sound - copy\include\agung_181511036.cpp
+	"Agung_181511036.h"
+
+1554394288 c:\users\king\downloads\documents\proyek 2\program tanggal 4 april new with sound - copy\include\agung_181511036.h
+	<graphics.h>
+	<conio.h>
+	<stdio.h>
+	"Irfan_181511048.h"
+
+1554466063 c:\users\king\downloads\documents\proyek 2\program tanggal 4 april new with sound - copy\include\irfan_181511048.h
+	<graphics.h>
+	<conio.h>
+	<stdio.h>
+	"Fahmi_181511012.h"
+	"Abdul_181511001.h"
+	"Nadia_181511058.h"
+
+1554461686 c:\users\king\downloads\documents\proyek 2\program tanggal 4 april new with sound - copy\include\fahmi_181511012.h
+	<graphics.h>
+	<conio.h>
+	<stdio.h>
+	"Nadia_181511058.h"
+
+1554461686 c:\users\king\downloads\documents\proyek 2\program tanggal 4 april new with sound - copy\include\nadia_181511058.h
+	<graphics.h>
+	<conio.h>
+	<stdio.h>
+
+1554472125 source:c:\users\king\downloads\documents\proyek 2\program tanggal 4 april new with sound - copy\include\fahmi_181511012.cpp
+	"Fahmi_181511012.h"
+
+1554471763 source:c:\users\king\downloads\documents\proyek 2\program tanggal 4 april new with sound - copy\include\irfan_181511048.cpp
+	"Irfan_181511048.h"
+
+1554461785 source:c:\users\king\downloads\documents\proyek 2\program tanggal 4 april new with sound - copy\include\nadia_181511058.cpp
+	"Nadia_181511058.h"
+
+1554478746 source:c:\users\king\downloads\documents\proyek 2\program tanggal 4 april new with sound - copy\main.cpp
+	"include/Abdul_181511001.h"
+	"include/Agung_181511036.h"
+	"include/Fahmi_181511012.h"
+	"include/Irfan_181511048.h"
+	"include/Nadia_181511058.h"
+
+1554309682 source:c:\users\king\downloads\documents\proyek 2\program 5 april (pembagian modul)\include\abdul_181511001.cpp
+	"Abdul_181511001.h"
+
+1554309684 c:\users\king\downloads\documents\proyek 2\program 5 april (pembagian modul)\include\abdul_181511001.h
+	<graphics.h>
+	<conio.h>
+	<stdio.h>
+	<iostream>
+	<windows.h>
+	<process.h>
+	<stddef.h>
+	<stdlib.h>
+	<MMsystem.h>
+
+1554477724 source:c:\users\king\downloads\documents\proyek 2\program 5 april (pembagian modul)\include\agung_181511036.cpp
+	"Agung_181511036.h"
+
+1554394288 c:\users\king\downloads\documents\proyek 2\program 5 april (pembagian modul)\include\agung_181511036.h
+	<graphics.h>
+	<conio.h>
+	<stdio.h>
+	"Irfan_181511048.h"
+
+1554479564 c:\users\king\downloads\documents\proyek 2\program 5 april (pembagian modul)\include\irfan_181511048.h
+	<graphics.h>
+	<conio.h>
+	<stdio.h>
+	"Fahmi_181511012.h"
+	"Abdul_181511001.h"
+	"Nadia_181511058.h"
+
+1554461686 c:\users\king\downloads\documents\proyek 2\program 5 april (pembagian modul)\include\fahmi_181511012.h
+	<graphics.h>
+	<conio.h>
+	<stdio.h>
+	"Nadia_181511058.h"
+
+1554461686 c:\users\king\downloads\documents\proyek 2\program 5 april (pembagian modul)\include\nadia_181511058.h
+	<graphics.h>
+	<conio.h>
+	<stdio.h>
+
+1554472125 source:c:\users\king\downloads\documents\proyek 2\program 5 april (pembagian modul)\include\fahmi_181511012.cpp
+	"Fahmi_181511012.h"
+
+1554461785 source:c:\users\king\downloads\documents\proyek 2\program 5 april (pembagian modul)\include\nadia_181511058.cpp
+	"Nadia_181511058.h"
+
+1554478746 source:c:\users\king\downloads\documents\proyek 2\program 5 april (pembagian modul)\main.cpp
+	"include/Abdul_181511001.h"
+	"include/Agung_181511036.h"
+	"include/Fahmi_181511012.h"
+	"include/Irfan_181511048.h"
+	"include/Nadia_181511058.h"
+
+1554479883 source:c:\users\king\downloads\documents\proyek 2\program 5 april (pembagian modul)\include\irfan_181511048.cpp
+	"Irfan_181511048.h"
+
+1554430020 source:c:\users\user\documents\proyek perangkat lunak 2\program 5 april (pembagian modul)\include\abdul_181511001.cpp
+	"Abdul_181511001.h"
+
+1554430022 c:\users\user\documents\proyek perangkat lunak 2\program 5 april (pembagian modul)\include\abdul_181511001.h
+	<graphics.h>
+	<conio.h>
+	<stdio.h>
+	<iostream>
+	<windows.h>
+	<process.h>
+	<stddef.h>
+	<stdlib.h>
+	<MMsystem.h>
+
+1558577607 source:c:\users\user\documents\proyek perangkat lunak 2\program 5 april (pembagian modul)\include\agung_181511036.cpp
+	"Agung_181511036.h"
+
+1556689336 c:\users\user\documents\proyek perangkat lunak 2\program 5 april (pembagian modul)\include\agung_181511036.h
+	<graphics.h>
+	<conio.h>
+	<stdio.h>
+	"Irfan_181511048.h"
+
+1558578182 c:\users\user\documents\proyek perangkat lunak 2\program 5 april (pembagian modul)\include\irfan_181511048.h
+	<graphics.h>
+	<conio.h>
+	<stdio.h>
+	"Fahmi_181511012.h"
+	"Abdul_181511001.h"
+	"Nadia_181511058.h"
+
+1558578713 c:\users\user\documents\proyek perangkat lunak 2\program 5 april (pembagian modul)\include\fahmi_181511012.h
+	"header.h"
+	"Agung_181511036.h"
+	"Nadia_181511058.h"
+
+1558583422 c:\users\user\documents\proyek perangkat lunak 2\program 5 april (pembagian modul)\include\nadia_181511058.h
+	"header.h"
+	"Irfan_181511048.h"
+	"Agung_181511036.h"
+
+1558581152 source:c:\users\user\documents\proyek perangkat lunak 2\program 5 april (pembagian modul)\include\fahmi_181511012.cpp
+	"Fahmi_181511012.h"
+
+1558583361 source:c:\users\user\documents\proyek perangkat lunak 2\program 5 april (pembagian modul)\include\irfan_181511048.cpp
+	"Irfan_181511048.h"
+
+1558586159 source:c:\users\user\documents\proyek perangkat lunak 2\program 5 april (pembagian modul)\include\nadia_181511058.cpp
+	"Nadia_181511058.h"
+
+1557371046 source:c:\users\user\documents\proyek perangkat lunak 2\program 5 april (pembagian modul)\main.cpp
+	"include/Abdul_181511001.h"
+	"include/Agung_181511036.h"
+	"include/Fahmi_181511012.h"
+	"include/Irfan_181511048.h"
+	"include/Nadia_181511058.h"
+
+1558581669 c:\users\user\documents\proyek perangkat lunak 2\program 5 april (pembagian modul)\include\header.h
+	<graphics.h>
+	<conio.h>
+	<stdio.h>
+	<process.h>
+	<stddef.h>
+	<stdlib.h>
+	<stdlib.h>
+	<mmsystem.h>
+	<pthread.h>
+
+1554430022 c:\users\user\documents\proyek perangkat lunak 2\program 5 april (pembagian modul)\include\agung_181511036.cpp
+	"Agung_181511036.h"
+
