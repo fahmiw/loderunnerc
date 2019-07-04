@@ -28,7 +28,7 @@ void draw_sprite(address level, int i, int j);
 void obj(address level, int i, int j);
 /* Tujuan       : Modul digunakan untuk menyalin map saat sprite bergerak */
 
-void kondisi(address level, int *i, int *j, int *pisang);
+void kondisi(address level, int *i, int *j);
 /* Tujuan       : Modul digunakan ketika ada kondisi-kondisi tertentu dalam game*/
 
 void hole_rule(address level, int *i , int *j, char key, Queue *Q, lubang A);
@@ -42,4 +42,3 @@ void button_left(address level, int *i, int *j);
 //int FAHMI (void **, int, size_t);
 
 #endif // FAHMI_181511012_H_INCLUDED
-
