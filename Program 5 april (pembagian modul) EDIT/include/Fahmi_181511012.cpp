@@ -10,31 +10,31 @@ void matriks(address level, int i, int j){  // menggambar map
                 {
                     if (level->map[i][j]==0)
                     {
-                        readimagefile("model/environmental/blank.bmp", 0+(ScreenWidth()/32)*j,0+(ScreenHeight()/18)*i,(ScreenWidth()/32)+(ScreenWidth()/32)*j,(ScreenHeight()/18)+(ScreenHeight()/18)*i);
+                        readimagefile("model/environmental/blank.bmp", 0+(Screen('x')/32)*j,0+(Screen('y' )/18)*i,(Screen('x')/32)+(Screen('x')/32)*j,(Screen('y' )/18)+(Screen('y' )/18)*i);
                     }
                     if (level->map[i][j]==3)
                     {
-                        readimagefile("model/environmental/tangga.bmp",0+(ScreenWidth()/32)*j,0+(ScreenHeight()/18)*i,(ScreenWidth()/32)+(ScreenWidth()/32)*j,(ScreenHeight()/18)+(ScreenHeight()/18)*i);
+                        readimagefile("model/environmental/tangga.bmp",0+(Screen('x')/32)*j,0+(Screen('y' )/18)*i,(Screen('x')/32)+(Screen('x')/32)*j,(Screen('y' )/18)+(Screen('y' )/18)*i);
                     }
                     if (level->map[i][j]==1)
                     {
-                        readimagefile("model/environmental/tanah.bmp",0+(ScreenWidth()/32)*j,0+(ScreenHeight()/18)*i,(ScreenWidth()/32)+(ScreenWidth()/32)*j,(ScreenHeight()/18)+(ScreenHeight()/18)*i);
+                        readimagefile("model/environmental/tanah.bmp",0+(Screen('x')/32)*j,0+(Screen('y' )/18)*i,(Screen('x')/32)+(Screen('x')/32)*j,(Screen('y' )/18)+(Screen('y' )/18)*i);
                     }
                     if (level->map[i][j]==2)
                     {
-                        readimagefile("model/environmental/tali.bmp",0+(ScreenWidth()/32)*j,0+(ScreenHeight()/18)*i,(ScreenWidth()/32)+(ScreenWidth()/32)*j,(ScreenHeight()/18)+(ScreenHeight()/18)*i);
+                        readimagefile("model/environmental/tali.bmp",0+(Screen('x')/32)*j,0+(Screen('y' )/18)*i,(Screen('x')/32)+(Screen('x')/32)*j,(Screen('y' )/18)+(Screen('y' )/18)*i);
                     }
                     if (level->map[i][j]==4)
                     {
-                        readimagefile("model/character/monyet_kanan.jpg",0+(ScreenWidth()/32)*j,0+(ScreenHeight()/18)*i,(ScreenWidth()/32)+(ScreenWidth()/32)*j,(ScreenHeight()/18)+(ScreenHeight()/18)*i);
+                        readimagefile("model/character/monyet_kanan.jpg",0+(Screen('x')/32)*j,0+(Screen('y' )/18)*i,(Screen('x')/32)+(Screen('x')/32)*j,(Screen('y' )/18)+(Screen('y' )/18)*i);
                     }
                     if (level->map[i][j]==5)
                     {
-                        readimagefile("model/environmental/pisang.bmp",0+(ScreenWidth()/32)*j,0+(ScreenHeight()/18)*i,(ScreenWidth()/32)+(ScreenWidth()/32)*j,(ScreenHeight()/18)+(ScreenHeight()/18)*i);
+                        readimagefile("model/environmental/pisang.bmp",0+(Screen('x')/32)*j,0+(Screen('y' )/18)*i,(Screen('x')/32)+(Screen('x')/32)*j,(Screen('y' )/18)+(Screen('y' )/18)*i);
                     }
                     if (level->map[i][j]==7)
                     {
-                        readimagefile("model/environmental/bata.bmp",0+(ScreenWidth()/32)*j,0+(ScreenHeight()/18)*i,(ScreenWidth()/32)+(ScreenWidth()/32)*j,(ScreenHeight()/18)+(ScreenHeight()/18)*i);
+                        readimagefile("model/environmental/bata.bmp",0+(Screen('x')/32)*j,0+(Screen('y' )/18)*i,(Screen('x')/32)+(Screen('x')/32)*j,(Screen('y' )/18)+(Screen('y' )/18)*i);
                     }
                 }
             }
@@ -43,27 +43,27 @@ void matriks(address level, int i, int j){  // menggambar map
 void obj(address level,int i, int j){                                                 // menyalin map saat sprite bergerak
             if (level->map[i][j]==0)
                     {
-                        readimagefile("model/environmental/blank.bmp",0+(ScreenWidth()/32)*j,0+(ScreenHeight()/18)*i,(ScreenWidth()/32)+(ScreenWidth()/32)*j,(ScreenHeight()/18)+(ScreenHeight()/18)*i);
+                        readimagefile("model/environmental/blank.bmp",0+(Screen('x')/32)*j,0+(Screen('y' )/18)*i,(Screen('x')/32)+(Screen('x')/32)*j,(Screen('y' )/18)+(Screen('y' )/18)*i);
                     }
             if (level->map[i][j]==3)
                     {
-                        readimagefile("model/environmental/tangga.bmp",0+(ScreenWidth()/32)*j,0+(ScreenHeight()/18)*i,(ScreenWidth()/32)+(ScreenWidth()/32)*j,(ScreenHeight()/18)+(ScreenHeight()/18)*i);
+                        readimagefile("model/environmental/tangga.bmp",0+(Screen('x')/32)*j,0+(Screen('y' )/18)*i,(Screen('x')/32)+(Screen('x')/32)*j,(Screen('y' )/18)+(Screen('y' )/18)*i);
                     }
             if (level->map[i][j]==1)
                     {
 
-                        readimagefile("model/environmental/tanah.bmp",0+(ScreenWidth()/32)*j,0+(ScreenHeight()/18)*i,(ScreenWidth()/32)+(ScreenWidth()/32)*j,(ScreenHeight()/18)+(ScreenHeight()/18)*i);
+                        readimagefile("model/environmental/tanah.bmp",0+(Screen('x')/32)*j,0+(Screen('y' )/18)*i,(Screen('x')/32)+(Screen('x')/32)*j,(Screen('y' )/18)+(Screen('y' )/18)*i);
                     }
             if (level->map[i][j]==2)
                     {
-                        readimagefile("model/environmental/tali.bmp",0+(ScreenWidth()/32)*j,0+(ScreenHeight()/18)*i,(ScreenWidth()/32)+(ScreenWidth()/32)*j,(ScreenHeight()/18)+(ScreenHeight()/18)*i);
+                        readimagefile("model/environmental/tali.bmp",0+(Screen('x')/32)*j,0+(Screen('y' )/18)*i,(Screen('x')/32)+(Screen('x')/32)*j,(Screen('y' )/18)+(Screen('y' )/18)*i);
                     }
             if (level->map[i][j]== 5)
                     {
-                        readimagefile("model/environmental/pisang.bmp",0+(ScreenWidth()/32)*j,0+(ScreenHeight()/18)*i,(ScreenWidth()/32)+(ScreenWidth()/32)*j,(ScreenHeight()/18)+(ScreenHeight()/18)*i);
+                        readimagefile("model/environmental/pisang.bmp",0+(Screen('x')/32)*j,0+(Screen('y' )/18)*i,(Screen('x')/32)+(Screen('x')/32)*j,(Screen('y' )/18)+(Screen('y' )/18)*i);
                     }
             if (level->map[i][j]== 6)
-                    readimagefile("model/environmental/portal.bmp",0+(ScreenWidth()/32)*j,0+(ScreenHeight()/18)*i,(ScreenWidth()/32)+(ScreenWidth()/32)*j,(ScreenHeight()/18)+(ScreenHeight()/18)*i);
+                    readimagefile("model/environmental/portal.bmp",0+(Screen('x')/32)*j,0+(Screen('y' )/18)*i,(Screen('x')/32)+(Screen('x')/32)*j,(Screen('y' )/18)+(Screen('y' )/18)*i);
 
 }
 
@@ -74,24 +74,24 @@ void draw_sprite(address level, int i, int j){                                  
                 {
                     if (j%2==0)
                     {
-                    readimagefile("model/character/monyet_panjat_1.gif", 0+(ScreenWidth()/32)*j,0+(ScreenHeight()/18)*i,(ScreenWidth()/32)+(ScreenWidth()/32)*j,(ScreenHeight()/18)+(ScreenHeight()/18)*i);
+                    readimagefile("model/character/monyet_panjat_1.gif", 0+(Screen('x')/32)*j,0+(Screen('y' )/18)*i,(Screen('x')/32)+(Screen('x')/32)*j,(Screen('y' )/18)+(Screen('y' )/18)*i);
                     }else
                     {
-                    readimagefile("model/character/monyet_panjat_2.gif", 0+(ScreenWidth()/32)*j,0+(ScreenHeight()/18)*i,(ScreenWidth()/32)+(ScreenWidth()/32)*j,(ScreenHeight()/18)+(ScreenHeight()/18)*i);
+                    readimagefile("model/character/monyet_panjat_2.gif", 0+(Screen('x')/32)*j,0+(Screen('y' )/18)*i,(Screen('x')/32)+(Screen('x')/32)*j,(Screen('y' )/18)+(Screen('y' )/18)*i);
                     }
                 if (level->map [i][j+1]==3)
                     {
-                        readimagefile("model/character/monyet_kanan.jpg", 0+(ScreenWidth()/32)*j,0+(ScreenHeight()/18)*i,(ScreenWidth()/32)+(ScreenWidth()/32)*j,(ScreenHeight()/18)+(ScreenHeight()/18)*i);
+                        readimagefile("model/character/monyet_kanan.jpg", 0+(Screen('x')/32)*j,0+(Screen('y' )/18)*i,(Screen('x')/32)+(Screen('x')/32)*j,(Screen('y' )/18)+(Screen('y' )/18)*i);
 
                     }
                 }
                 else if(j%2==0)
                 {
-                readimagefile("model/character/monyet_kanan_01.jpg", 0+(ScreenWidth()/32)*j,0+(ScreenHeight()/18)*i,(ScreenWidth()/32)+(ScreenHeight()/18)*j,(ScreenWidth()/32)+(ScreenHeight()/18)*i);
+                readimagefile("model/character/monyet_kanan_01.jpg", 0+(Screen('x')/32)*j,0+(Screen('y' )/18)*i,(Screen('x')/32)+(Screen('y' )/18)*j,(Screen('x')/32)+(Screen('y' )/18)*i);
 
                 }else
                 {
-                readimagefile("model/character/monyet_kanan.jpg", 0+(ScreenWidth()/32)*j,0+(ScreenHeight()/18)*i,(ScreenWidth()/32)+(ScreenHeight()/18)*j,(ScreenWidth()/32)+(ScreenHeight()/18)*i);
+                readimagefile("model/character/monyet_kanan.jpg", 0+(Screen('x')/32)*j,0+(Screen('y' )/18)*i,(Screen('x')/32)+(Screen('y' )/18)*j,(Screen('x')/32)+(Screen('y' )/18)*i);
 
                 }
     }
@@ -100,52 +100,52 @@ void draw_sprite(address level, int i, int j){                                  
                 {
                     if (j%2==0)
                     {
-                    readimagefile("model/character/monyet_panjat_1.gif", 0+(ScreenWidth()/32)*j,0+(ScreenHeight()/18)*i,(ScreenWidth()/32)+(ScreenWidth()/32)*j,(ScreenHeight()/18)+(ScreenHeight()/18)*i);
+                    readimagefile("model/character/monyet_panjat_1.gif", 0+(Screen('x')/32)*j,0+(Screen('y' )/18)*i,(Screen('x')/32)+(Screen('x')/32)*j,(Screen('y' )/18)+(Screen('y' )/18)*i);
                     }else
                     {
-                    readimagefile("model/character/monyet_panjat_2.gif", 0+(ScreenWidth()/32)*j,0+(ScreenHeight()/18)*i,(ScreenWidth()/32)+(ScreenWidth()/32)*j,(ScreenHeight()/18)+(ScreenHeight()/18)*i);
+                    readimagefile("model/character/monyet_panjat_2.gif", 0+(Screen('x')/32)*j,0+(Screen('y' )/18)*i,(Screen('x')/32)+(Screen('x')/32)*j,(Screen('y' )/18)+(Screen('y' )/18)*i);
                     }
                 if (level->map [i][j-1]==3)
                     {
-                        readimagefile("model/character/monyet_kiri.jpg", 0+(ScreenWidth()/32)*j,0+(ScreenHeight()/18)*i,(ScreenWidth()/32)+(ScreenWidth()/32)*j,(ScreenHeight()/18)+(ScreenHeight()/18)*i);
+                        readimagefile("model/character/monyet_kiri.jpg", 0+(Screen('x')/32)*j,0+(Screen('y' )/18)*i,(Screen('x')/32)+(Screen('x')/32)*j,(Screen('y' )/18)+(Screen('y' )/18)*i);
 
                     }
                 }
                 else if(j%2==0)
                 {
-                readimagefile("model/character/monyet_kiri_01.jpg", 0+(ScreenWidth()/32)*j,0+(ScreenHeight()/18)*i,(ScreenWidth()/32)+(ScreenHeight()/18)*j,(ScreenWidth()/32)+(ScreenHeight()/18)*i);
+                readimagefile("model/character/monyet_kiri_01.jpg", 0+(Screen('x')/32)*j,0+(Screen('y' )/18)*i,(Screen('x')/32)+(Screen('y' )/18)*j,(Screen('x')/32)+(Screen('y' )/18)*i);
 
                 }else
                 {
-                readimagefile("model/character/monyet_kiri_02.jpg", 0+(ScreenWidth()/32)*j,0+(ScreenHeight()/18)*i,(ScreenWidth()/32)+(ScreenHeight()/18)*j,(ScreenWidth()/32)+(ScreenHeight()/18)*i);
+                readimagefile("model/character/monyet_kiri_02.jpg", 0+(Screen('x')/32)*j,0+(Screen('y' )/18)*i,(Screen('x')/32)+(Screen('y' )/18)*j,(Screen('x')/32)+(Screen('y' )/18)*i);
                 }
     }
     if(panjat==1){
         if (level->map[i-1][j]==1 && level->map[i+1][j]==3){
-             readimagefile("model/character/monyet_kanan.jpg", 0+(ScreenWidth()/32)*j,0+(ScreenHeight()/18)*i,(ScreenWidth()/32)+(ScreenWidth()/32)*j,(ScreenHeight()/18)+(ScreenHeight()/18)*i);
+             readimagefile("model/character/monyet_kanan.jpg", 0+(Screen('x')/32)*j,0+(Screen('y' )/18)*i,(Screen('x')/32)+(Screen('x')/32)*j,(Screen('y' )/18)+(Screen('y' )/18)*i);
         }
         else if (i%2==0)
         {
-            readimagefile("model/character/monyet_panjat_1.gif", 0+(ScreenWidth()/32)*j,0+(ScreenHeight()/18)*i,(ScreenWidth()/32)+(ScreenWidth()/32)*j,(ScreenHeight()/18)+(ScreenHeight()/18)*i);
+            readimagefile("model/character/monyet_panjat_1.gif", 0+(Screen('x')/32)*j,0+(Screen('y' )/18)*i,(Screen('x')/32)+(Screen('x')/32)*j,(Screen('y' )/18)+(Screen('y' )/18)*i);
         }else
         {
-            readimagefile("model/character/monyet_panjat_2.gif", 0+(ScreenWidth()/32)*j,0+(ScreenHeight()/18)*i,(ScreenWidth()/32)+(ScreenWidth()/32)*j,(ScreenHeight()/18)+(ScreenHeight()/18)*i);
+            readimagefile("model/character/monyet_panjat_2.gif", 0+(Screen('x')/32)*j,0+(Screen('y' )/18)*i,(Screen('x')/32)+(Screen('x')/32)*j,(Screen('y' )/18)+(Screen('y' )/18)*i);
         }
 
     }
     if (fall==1)
             {
 
-                readimagefile("model/character/monyet_jatuh_kanan.jpg", 0+(ScreenWidth()/32)*j,0+(ScreenHeight()/18)*i,(ScreenWidth()/32)+(ScreenWidth()/32)*j,(ScreenHeight()/18)+(ScreenHeight()/18)*i);
+                readimagefile("model/character/monyet_jatuh_kanan.jpg", 0+(Screen('x')/32)*j,0+(Screen('y' )/18)*i,(Screen('x')/32)+(Screen('x')/32)*j,(Screen('y' )/18)+(Screen('y' )/18)*i);
                 delay(200);
             }
     if (bom1==1)
             {
-                readimagefile("model/character/monyet_bom_kiri.jpg", 0+(ScreenWidth()/32)*j,0+(ScreenHeight()/18)*i,(ScreenWidth()/32)+(ScreenWidth()/32)*j,(ScreenHeight()/18)+(ScreenHeight()/18)*i);
+                readimagefile("model/character/monyet_bom_kiri.jpg", 0+(Screen('x')/32)*j,0+(Screen('y' )/18)*i,(Screen('x')/32)+(Screen('x')/32)*j,(Screen('y' )/18)+(Screen('y' )/18)*i);
             }
     if (bom2==1)
             {
-                readimagefile("model/character/monyet_bom_kanan.jpg", 0+(ScreenWidth()/32)*j,0+(ScreenHeight()/18)*i,(ScreenWidth()/32)+(ScreenWidth()/32)*j,(ScreenHeight()/18)+(ScreenHeight()/18)*i);
+                readimagefile("model/character/monyet_bom_kanan.jpg", 0+(Screen('x')/32)*j,0+(Screen('y' )/18)*i,(Screen('x')/32)+(Screen('x')/32)*j,(Screen('y' )/18)+(Screen('y' )/18)*i);
             }
 
         //Kondisi disaat perubahan nilai dalam matriks
@@ -172,27 +172,22 @@ void draw_sprite(address level, int i, int j){                                  
                 // lain, posisi diisi = kosong
             }
         }
-        if (level->map[i+1][j]==7)
-        {
-                
-        }
     }
     if (KEY_RIGHT==5)
             {
-                readimagefile("model/character/monyet_kanan.jpg", 0+(ScreenWidth()/32)*j,0+(ScreenHeight()/18)*i,(ScreenWidth()/32)+(ScreenWidth()/32)*j,(ScreenHeight()/18)+(ScreenHeight()/18)*i);
+                readimagefile("model/character/monyet_kanan.jpg", 0+(Screen('x')/32)*j,0+(Screen('y' )/18)*i,(Screen('x')/32)+(Screen('x')/32)*j,(Screen('y' )/18)+(Screen('y' )/18)*i);
             }
 }
 
 
 
 void jatuh(address level, int *i, int *j){              // player terjatuh
-    int pisang;
-    while(cek_bawah(level, &(*i), &(*j))){              // ketika bawah = kosong
+    while(cek_bawah(level, &(*i), &(*j)) || cek_pisang(level, &(*i), &(*j))){              // ketika bawah = kosong
         obj(level,(*i) ,(*j));                          // timpa gambar map
         fall=1;                                         // jatuh = true
         (*i)=(*i)+1;                                    // baris = baris + 1
         draw_sprite(level, (*i), (*j));                 // gambar sprite jatuh
-        kondisi(level, &(*i), &(*j), &pisang);
+        kondisi(level, &(*i), &(*j));
     }
 }
 
@@ -329,12 +324,12 @@ void hole_rule(address level, int *i , int *j, char key, Queue *Q, lubang A){
                     klmS=(*j-1);
 
 					level->map[brsS][klmS] = 0;
-                    readimagefile("model/environmental/blank.bmp",0+(ScreenWidth()/32)*klmS,0+(ScreenHeight()/18)*brsS,(ScreenWidth()/32)+(ScreenWidth()/32)*klmS,(ScreenHeight()/18)+(ScreenHeight()/18)*brsS);
+                    readimagefile("model/environmental/blank.bmp",0+(Screen('x')/32)*klmS,0+(Screen('y' )/18)*brsS,(Screen('x')/32)+(Screen('x')/32)*klmS,(Screen('y' )/18)+(Screen('y' )/18)*brsS);
                     assign_arr(&A,*i+1,*j-1,clock());
                     delay(2000);
                     //delay(200);
                     level->map[brsS][klmS] = 1;
-                    readimagefile("model/environmental/tanah.bmp",0+(ScreenWidth()/32)*klmS,0+(ScreenHeight()/18)*brsS,(ScreenWidth()/32)+(ScreenWidth()/32)*klmS,(ScreenHeight()/18)+(ScreenHeight()/18)*brsS);
+                    readimagefile("model/environmental/tanah.bmp",0+(Screen('x')/32)*klmS,0+(Screen('y' )/18)*brsS,(Screen('x')/32)+(Screen('x')/32)*klmS,(Screen('y' )/18)+(Screen('y' )/18)*brsS);
 
                     enqueue(Q,A);
                 }
@@ -350,10 +345,10 @@ void hole_rule(address level, int *i , int *j, char key, Queue *Q, lubang A){
                     klmS=*j+1;
 
 					level->map[brsS][klmS] = 0;
-                    readimagefile("model/environmental/blank.bmp",0+(ScreenWidth()/32)*klmS,0+(ScreenHeight()/18)*brsS,(ScreenWidth()/32)+(ScreenWidth()/32)*klmS,(ScreenHeight()/18)+(ScreenHeight()/18)*brsS);
+                    readimagefile("model/environmental/blank.bmp",0+(Screen('x')/32)*klmS,0+(Screen('y' )/18)*brsS,(Screen('x')/32)+(Screen('x')/32)*klmS,(Screen('y' )/18)+(Screen('y' )/18)*brsS);
                     delay(2000);
                     level->map[brsS][klmS] = 1;
-                    readimagefile("model/environmental/tanah.bmp",0+(ScreenWidth()/32)*klmS,0+(ScreenHeight()/18)*brsS,(ScreenWidth()/32)+(ScreenWidth()/32)*klmS,(ScreenHeight()/18)+(ScreenHeight()/18)*brsS);
+                    readimagefile("model/environmental/tanah.bmp",0+(Screen('x')/32)*klmS,0+(Screen('y' )/18)*brsS,(Screen('x')/32)+(Screen('x')/32)*klmS,(Screen('y' )/18)+(Screen('y' )/18)*brsS);
         			assign_arr(&A,*i+1,*j+1,clock());
                     enqueue(Q,A);
                 }
@@ -364,7 +359,7 @@ void hole_rule(address level, int *i , int *j, char key, Queue *Q, lubang A){
 
 bool cek_pisang(address level, int *i, int *j)
     {
-    if (level->map[*i][*j]==5){
+    if (level->map[*i][*j]==5 || level->map[*i+1][*j]==5){
             return true;
             }
         else{
@@ -372,7 +367,8 @@ bool cek_pisang(address level, int *i, int *j)
             }
     }
 
-void kondisi(address level, int *i, int *j, int *pisang){
+void kondisi(address level, int *i, int *j){
+
 
     // Kondisi apa saja ketika karakter akan jatuh
     if ((level->map[(*i)+1][(*j)]==0 || level->map[(*i)+1][(*j)]==5) && level->map[(*i)][(*j)]!=2)
@@ -395,18 +391,4 @@ void kondisi(address level, int *i, int *j, int *pisang){
     }
 
     // jika mengambil pisang ambil pisang
-    if(cek_pisang(level, &(*i), &(*j)))
-    {
-        (*pisang)=(*pisang)+1;
-        _beginthread(sound_banana, 0, NULL);
-    }
-
-    // jika tanah 2 lipat
-   /* if (level->map[(*i+1)][(*j+1)]==1){
-        panjat=1;
-
-    }
-    */
 }
-
-
